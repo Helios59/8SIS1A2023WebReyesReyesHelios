@@ -1,9 +1,9 @@
 #principal {
-    border: solid 1px #b41c1c;
+    border: solid 2px #b41c1c;
     padding: 5px;
     margin: 0 auto;
     width: 85%;
-    background: #227ed4;
+    background: #69abe9;
 }
 
 fieldset {
@@ -14,7 +14,7 @@ legend {
     border: solid 1px #f7d547;
     padding: 5px;
     font-weight: bold;
-    background: #d09306;
+    background: #c4b491;
     border-radius: 15px;
 }
 
