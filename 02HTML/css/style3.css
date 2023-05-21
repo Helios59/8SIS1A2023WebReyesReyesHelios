@@ -1,11 +1,28 @@
 #principal {
-    border: solid 1px #cccccc;
+    border: solid 1px #b41c1c;
     padding: 5px;
     margin: 0 auto;
     width: 85%;
-    background: #82baf9;
+    background: #227ed4;
 }
 
 fieldset {
     margin-bottom: 10px;
+}
+
+legend {
+    border: solid 1px #f7d547;
+    padding: 5px;
+    font-weight: bold;
+    background: #d09306;
+    border-radius: 15px;
+}
+
+#mifoto {
+    border: solid 2px;
+    margin: 10px;
+}
+
+body {
+    background: url(../ac.jpg);
 }
