@@ -12,8 +12,16 @@
         <source src="./imagesp/palo.mp3" type="audio/mpeg">
       </audio>
     
-      <audio id="fue">
-        <source src="./imagesp/fue.mp3" type="audio/mpeg">
+      <audio id="jump">
+        <source src="./imagesp/jump.mp3" type="audio/mpeg">
+      </audio>
+
+      <audio id="coin">
+        <source src="./imagesp/coin.mp3" type="audio/mpeg">
+      </audio>
+
+      <audio id="hueso">
+        <source src="./imagesp/hueso.mp3" type="audio/mpeg">
       </audio>
 
       <header>
@@ -22,8 +30,8 @@
           <ul>
             <li><a href="#home" onclick="playClickSound()">Inicio</a></li>
             <li><a href="#about" onclick="playClickSound2()">Sobre nosotros</a></li>
-            <li><a href="#products" onclick="playClickSound()">Productos</a></li>
-            <li><a href="#success" onclick="playClickSound()">Casos de éxito</a></li>
+            <li><a href="#products" onclick="playClickSound3()">Productos</a></li>
+            <li><a href="#success" onclick="playClickSound4()">Casos de éxito</a></li>
             <li><a href="#contact" onclick="playClickSound()">Contacto</a></li>
           </ul>
         </nav>
@@ -38,7 +46,7 @@
     
         <div class="box">
           <h2>Sobre nosotros</h2>
-          <p>Somos una empresa dedicada a ofrecer juegos de Mario Bros para Nintendo DSi.</p>
+          <p>Somos una empresa dedicada a mostrar el juego de Mario Bros para Nintendo DSi.</p>
           <img src="sobre_nosotros.jpg" alt="Sobre nosotros" width="200">
         </div>
     
@@ -80,7 +88,19 @@
         }
 
         function playClickSound2() {
-    var sound = document.getElementById("fue");
+    var sound = document.getElementById("jump");
+    sound.currentTime = 0;
+    sound.play();
+  }
+
+  function playClickSound3() {
+    var sound = document.getElementById("coin");
+    sound.currentTime = 0;
+    sound.play();
+  }
+
+  function playClickSound4() {
+    var sound = document.getElementById("hueso");
     sound.currentTime = 0;
     sound.play();
   }
