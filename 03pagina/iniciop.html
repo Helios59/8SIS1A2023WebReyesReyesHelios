@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Super Mario Bros Nintendo Dsi</title>
+    <link rel="stylesheet" href="../03pagina/css/stylep.css">
+</head>
+<body>
+    <audio id="palo">
+        <source src="./imagesp/palo.mp3" type="audio/mpeg">
+      </audio>
+    
+      <audio id="fue">
+        <source src="./imagesp/fue.mp3" type="audio/mpeg">
+      </audio>
+
+      <header>
+        <h1>New Super Mario Bros Nintendo DSi</h1>
+        <nav>
+          <ul>
+            <li><a href="#home" onclick="playClickSound()">Inicio</a></li>
+            <li><a href="#about" onclick="playClickSound2()">Sobre nosotros</a></li>
+            <li><a href="#products" onclick="playClickSound()">Productos</a></li>
+            <li><a href="#success" onclick="playClickSound()">Casos de éxito</a></li>
+            <li><a href="#contact" onclick="playClickSound()">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+      <div class="container">
+        <div class="box">
+          <h2>Inicio</h2>
+          <p>Bienvenido a la página principal de Mario Bros Nintendo DSi.</p>
+          <img src="./imagesp/mario.jpeg" alt="Mario Bros" width="200">
+        </div>
+    
+        <div class="box">
+          <h2>Sobre nosotros</h2>
+          <p>Somos una empresa dedicada a ofrecer juegos de Mario Bros para Nintendo DSi.</p>
+          <img src="sobre_nosotros.jpg" alt="Sobre nosotros" width="200">
+        </div>
+    
+        <div class="box">
+          <h2>Productos</h2>
+          <p>Explora nuestra selección de juegos de Mario Bros para Nintendo DSi.</p>
+          <img src="productos.jpg" alt="Productos" width="200">
+        </div>
+    
+        <div class="box">
+          <h2>Casos de éxito</h2>
+          <p>Conoce nuestros proyectos y alianzas exitosas en el mundo de los juegos de Mario Bros.</p>
+          <img src="casos_exito.jpg" alt="Casos de éxito" width="200">
+        </div>
+    
+        <div class="box">
+          <h2>Contacto</h2>
+          <p>Contáctanos para más información o consultas.</p>
+          <img src="contacto.jpg" alt="Contacto" width="200">
+        </div>
+      </div>
+    
+      <footer>
+        <p>Síguenos en redes sociales:</p>
+        <a href="https://facebook.com"><img src="./imagesp/facebook.png" alt="Facebook" width="30"></a>
+        <a href="https://twitter.com"><img src="twitter.png" alt="Twitter" width="30"></a>
+        <a href="https://instagram.com"><img src="instagram.png" alt="Instagram" width="30"></a>
+        <br><br>
+        <a href="contacto.html">Contacto</a> | <a href="aviso_privacidad.html">Aviso de privacidad</a> | <a href="politicas.html">Políticas</a>
+      </footer>
+      <br>
+      <a href="../index.html">Regresar al Menu Principal</a>
+    
+      <script>
+        function playClickSound() {
+          var sound = document.getElementById("palo");
+          sound.currentTime = 0;
+          sound.play();
+        }
+
+        function playClickSound2() {
+    var sound = document.getElementById("fue");
+    sound.currentTime = 0;
+    sound.play();
+  }
+</script>
+    
+</body>
+</html>
