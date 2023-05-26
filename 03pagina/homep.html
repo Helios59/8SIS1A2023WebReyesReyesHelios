@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incio New Super Mario Bros Nintendo DSi </title>
+
+                <!-- Aqui es el logo de utc en chiquito, va en la 
+    parte superior (arriba) izquierda -->
+    <link rel="website icon" type="png" 
+    href="./imagesp/icono.jpeg">
+
+    <link rel="stylesheet" href="./css/stylehome.css">
+</head>
+<body>
+
+  <audio id="palo">
+    <source src="./imagesp/palo.mp3" type="audio/mpeg">
+  </audio>
+
+  <div class="container">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./iniciop.html">Principal</a></li>
+          <li><a href="./aboutp.html">Sobre nosotros</a></li>
+          <li><a href="./personajesp.html">Personajes</a></li>
+          <li><a href="./mundop.html">Mundos</a></li>
+          <li><a href="./contactop.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="home" class="section">
+        <div class="video-container">
+            <video src="./imagesp/video.mp4" autoplay loop muted></video>
+          </div>
+      <h1>Bienvenido a New Super Mario Bros</h1>
+      <p>El juego clásico de plataformas que ha cautivado a millones de jugadores en todo el mundo.
+        En esta pagina encontraras informacion del juego en cuestion, como sus personajes,
+        mundos disponibles, jefes, entre otras cosas.
+      </p>
+      <button class="btn">
+        <img src="./imagesp/tuberia-iniciop.png" alt="Imagen" width="100" onclick="playClickSound()">
+      </button>
+      
+    </section>
+    <!-- Otras secciones de la página -->
+    <footer>
+      <p>Síguenos en redes sociales:</p>
+      <a href="https://facebook.com"><img src="./imagesp/facebook.png" alt="Facebook" width="30"></a>
+      <a href="https://twitter.com"><img src="./imagesp/twitter-iniciop.png" alt="Twitter" width="30"></a>
+      <a href="https://instagram.com"><img src="./imagesp/insta-iniciop.png" alt="Instagram" width="30"></a>
+    </footer>
+  </div>
+
+  <script>
+            function playClickSound() {
+          var sound = document.getElementById("palo");
+          sound.currentTime = 0;
+          sound.play();
+        }
+  </script>
+
+</body>
+</html>
