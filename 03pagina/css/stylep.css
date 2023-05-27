@@ -91,8 +91,41 @@
         text-decoration: underline;
       }
 
-
-
-
-
-
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      
+      .main-section {
+        text-align: center;
+      }
+      
+      .animated-image {
+        position: relative;
+        animation-name: slideRight;
+        animation-duration: 3s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+      
+      @keyframes slideRight {
+        0% {
+          left: 0;
+        }
+        100% {
+          left: calc(100% - 60px);
+        }
+      }
+    
+      .image-container {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+      }
+      
+      .rotated-image {
+        transform: rotate(90deg);
+      }
+      
+      
