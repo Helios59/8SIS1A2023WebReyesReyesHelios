@@ -1,0 +1,96 @@
+#principal {
+    border: solid 2px black;
+    padding: 5px;
+    margin: 0 auto;
+    width: 85%;
+
+    /* Animación */
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+fieldset {
+    margin-bottom: 10px;
+    background-color: rgb(144, 196, 231);
+    
+    /* Animación */
+    animation-name: slide;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+legend {
+    border: solid 1px rgb(64, 117, 214);
+    padding: 5px;
+    font-weight: bold;
+    background: lightblue   ;
+    border-radius: 20px;
+}
+
+
+#mifoto {
+    border: solid 2px;
+    margin: 10px;
+
+    /* Animación */
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+body {
+    background: url(../fondodd.jpg);
+    background-size: 100%;
+}
+
+
+h2 {
+    /* Animación */
+    animation-name: colorChange;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorChange {
+    0% {
+        color: black;
+    }
+
+    50% {
+        color: rgb(57, 214, 83);
+    }
+
+    100% {
+        color: black;
+    }
+}
+
