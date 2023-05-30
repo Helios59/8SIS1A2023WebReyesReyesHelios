@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problemas de algoritmos</title>
+    <link rel="stylesheet" href="./css/estilo-principal.css">
+    <script src="./js/validar.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario de Problemas</h1>
+
+        <form id="problem-form">
+          <h2>Problema 1</h2>
+          <label>1.- Suponga que un individuo desea invertir su capital en un banco y saber cuanto dinero 
+            ganara después de un mes si el banco paga a razón de 2% mensual.</label>
+          <br>
+          <label for="capital">Capital:</label>
+          <input type="number" id="capital" required>
+          <button type="button" onclick="calcularGanancia()">Calcular</button>
+          <p id="ganancia"></p>
+      
+          <h2>Problema 2</h2>
+          <label>2.- Un vendedor recibe un sueldo base mas un 10% extra por comisión de sus ventas, el vendedor desea
+             saber cuanto dinero obtendrá por concepto de comisiones por las tres ventas que realiza en el mes y
+              el total que recibirá en el mes tomando en cuenta su sueldo base y comisiones.</label>
+          <br>
+          <label for="ventas">Total Ventas:</label>
+          <input type="number" id="ventas" required>
+          <label for="sueldo-base">Sueldo Base:</label>
+          <input type="number" id="sueldo-base" required>
+          <button type="button" onclick="calcularComisiones()">Calcular</button>
+          <p id="comisiones"></p>
+          <p id="total"></p>
+      
+          <h2>Problema 3</h2>
+          <label>3.- Una tienda ofrece un descuento del 1.5% sobre el total de la compra y un cliente desea saber
+             cuanto deberá pagar finalmente por su compra.</label>
+          <br>
+          <label for="total-compra">Total Compra:</label>
+          <input type="number" id="total-compra" required>
+          <button type="button" onclick="calcularDescuento()">Calcular</button>
+          <p id="total-pagar"></p>
+      
+          <h2>Problema 4</h2>
+            <label>4.- Un alumno desea saber cual será su calificación final en la materia de Algoritmos.
+                 Dicha calificación se compone de los siguientes porcentajes: 55% del promedio de sus tres 
+                 calificaciones parciales. 30% de la calificación del examen final. 15% de la calificación de
+                  un trabajo final. </label>
+            <br>
+          <label for="calif-parcial1">Calificación Parcial 1:</label>
+          <input type="number" id="calif-parcial1" required>
+          <label for="calif-parcial2">Calificación Parcial 2:</label>
+          <input type="number" id="calif-parcial2" required>
+          <label for="calif-parcial3">Calificación Parcial 3:</label>
+          <input type="number" id="calif-parcial3" required>
+          <label for="calif-examen">Calificación Examen Final:</label>
+          <input type="number" id="calif-examen" required>
+          <label for="calif-trabajo">Calificación Trabajo Final:</label>
+          <input type="number" id="calif-trabajo" required>
+          <button type="button" onclick="calcularCalificacionFinal()">Calcular</button>
+          <p id="calificacion-final"></p>
+      
+          <h2>Problema 5</h2>
+          <label>5.- Un maestro desea saber que porcentaje de hombres y que porcentaje de mujeres hay en un grupo
+             de estudiantes. </label>
+             <br>
+          <label for="total-estudiantes">Total Estudiantes:</label>
+          <input type="number" id="total-estudiantes" required>
+          <label for="total-hombres">Total Hombres:</label>
+          <input type="number" id="total-hombres" required>
+          <button type="button" onclick="calcularPorcentaje()">Calcular</button>
+          <p id="porcentaje-hombres"></p>
+          <p id="porcentaje-mujeres"></p>
+      
+          <h2>Problema 6</h2>
+          <label>6.- Realizar un algoritmo que calcule la edad de una persona.</label>
+          <br>
+          <label for="anio-nacimiento">Año de Nacimiento:</label>
+          <input type="number" id="anio-nacimiento" required>
+          <button type="button" onclick="calcularEdad()">Calcular</button>
+          <p id="edad"></p>
+        </form>
+      </body>
+      
+      </html>
+      <br>
+      <footer>
+        <a href="../index.html"><h2>Regresar al inicio</h2></a>
+    </footer>
+    <br>
+
+</body>
+</html>
