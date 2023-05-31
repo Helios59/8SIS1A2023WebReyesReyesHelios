@@ -1,7 +1,6 @@
-//vamos a crear una funcion que se encarga de validar
-// la entrada de datos
+//vamos a crear una funcion que se encarga de validar la entrada de datos
 
-function validarn(e) {
+function validarn(e){
     var teclado = (document.all)?e.keyCode : e.which;
 
     if(teclado == 8) return true;
@@ -13,16 +12,16 @@ function validarn(e) {
     return patron.test(codigo);
 }
 
-function interes() {
+function interes(){
     var valor = document.formulario.cantidad.value;
     var resul = parseInt(valor);
     var interes = resul*0.02;
     var total = interes + resul;
 
-    document.formulario.suledoI.valor = "$" + total;
+    document.formulario.sueldoI.value = "$" + total;
 }
 
-function borrar() {
+function borrar(){
     document.formulario.sueldoI.value = "";
-  document.formulario.cantidad.value = "";
+    document.formulario.cantidad.value = "";
 }

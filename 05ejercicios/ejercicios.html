@@ -8,46 +8,48 @@
     <link rel="stylesheet" href="./css/estilo05.css">
 </head>
 <body>
-    <div class="container">
+
+    <div class="container" >
         <form method="get" name="formulario" action="">
-            <label>Formulario para el calculo de inversion
-                de capital al 2% mensual.
-            </label>
-            <div class="table-content">
-            <table>
-                <tr>
-                    <td>Introduce la cantidad a
-                        invertir: </td>
+            <label>Formulario para le calculo de inversion de capital al 2% mensual</label>
+            <div class="table-content" >
+                <table>
+                    <tr>
+                        <td>Introduce la cantidad a invertir: </td>
                         <td>
-                            <input type="text" name="cantidad" onkeypress="return validarn(event)">
+                            <input type="text" name="cantidad" onkeypress="return validarn(event)" >
                         </td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>
-                        <input type="button" value="Calcular interes" name="enviar" onclick="interes()">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Su saldo total con enl
-                        interes al 2% mensual es
-                        de:
-                    </td>
-                    <td>
-                        <input type="text" readonly="readonly" class="input_text" name="sueldoI" id="cantidadI">
-                    </td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>
-                        <input type="button" value="Borrar Datos" name="borar" onclick="borrar()">
-                    </td>
-                </tr>
-            </table>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="button" value="Calcular interes" name="enviar" onclick="interes()">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Su saldo total con el interes al 2% mensual es de: 
+                        </td>
+                        <td>
+                            <input type="text" readonly="readonly" class="input_text" name="sueldoI" id="cantidadI">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="button" value="Borrar Datos" name="borar" onclick="borrar()">
+                        </td>
+                    </tr>
+                </table>
             </div>
         </form>
     </div>
-    <script src="./js/interes.js"></script>
+    <script src="./js/interes.js" ></script>
+    <br>
+    <footer>
+        <a href="../index.html"><h2>Regresar al inicio</h2></a>
+    </footer>
+    <br>
+    
 </body>
 </html>
