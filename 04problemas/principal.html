@@ -28,8 +28,12 @@
              saber cuanto dinero obtendrá por concepto de comisiones por las tres ventas que realiza en el mes y
               el total que recibirá en el mes tomando en cuenta su sueldo base y comisiones.</label>
           <br>
-          <label for="ventas">Total Ventas:</label>
-          <input type="number" id="ventas" required>
+          <label for="venta1">Venta 1:</label>
+          <input type="number" id="venta1" required>
+          <label for="venta2">Venta 2:</label>
+          <input type="number" id="venta2" required>
+          <label for="venta3">Venta 3:</label>
+          <input type="number" id="venta3" required>
           <label for="sueldo-base">Sueldo Base:</label>
           <input type="number" id="sueldo-base" required>
           <button type="button" onclick="calcularComisiones()">Calcular</button>
@@ -83,11 +87,14 @@
           <h2>Problema 6</h2>
           <label>6.- Realizar un algoritmo que calcule la edad de una persona.</label>
           <br>
+          <label for="dia-nacimiento">Día de Nacimiento:</label>
+          <input type="number" id="dia-nacimiento" required>
+          <label for="mes-nacimiento">Mes de Nacimiento:</label>
+          <input type="number" id="mes-nacimiento" required>
           <label for="anio-nacimiento">Año de Nacimiento:</label>
           <input type="number" id="anio-nacimiento" required>
           <button type="button" onclick="calcularEdad()">Calcular</button>
           <button type="button" onclick="borrarFormulario()">Borrar</button>
-
           <p id="edad"></p>
         </form>
       </body>
