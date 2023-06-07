@@ -1,3 +1,4 @@
+//PROBLEMA 2
 function problema2(){
     //lo primero que necesitamos es obtener los campos de texto
     var p2_x1 = document.querySelector('#p2-x1').
@@ -60,29 +61,40 @@ function problema2(){
      = 'Producto Escalar Minimo. ' + p2_prodcuto;
 }
 
-function problema1(){
-    var pa = document.getElementById('p1-input').value;
-
-    var parray = pa.split('');
-
-    var painvertido = parray.reverse().join(' ');
-    document.getElementById('p1-output').textContent = painvertido;
+//PROBLEMA 1
+function problema1() {
+  var pa = document.getElementById('p1-input').value;
+  var parray = pa.split(' ');
+  var painvertido = parray.reverse().join(' ');
+  document.getElementById('p1-output').textContent = painvertido;
 }
 
+//PROBLEMA 3
 function problema3() {
-    var palabras = document.getElementById('p3-input').value;
-    var palabrasArray = palabras.split(',');
-  
-    var palabraMasLarga = '';
-    var maxCaracteresUnicos = 0;
-  
-    palabrasArray.forEach(function(palabra) {
-      var caracteresUnicos = new Set(palabra).size;
-      if (caracteresUnicos > maxCaracteresUnicos) {
-        maxCaracteresUnicos = caracteresUnicos;
-        palabraMasLarga = palabra;
-      }
-    });
-  
-    document.getElementById('p3-output').textContent = palabraMasLarga;
+  var palabras = document.getElementById('p3-input').value.toUpperCase().split(',');
+
+  if (palabras.includes(' ') || /[a-z]/.test(palabras.join(''))) {
+    alert("Por favor, ingrese palabras en mayúsculas sin espacios.");
+    return;
   }
+
+  var palabraMasLarga = '';
+  var maxCaracteresUnicos = 0;
+
+  palabras.forEach(function(palabra) {
+    var caracteresUnicos = new Set(palabra).size;
+    if (caracteresUnicos > maxCaracteresUnicos) {
+      maxCaracteresUnicos = caracteresUnicos;
+      palabraMasLarga = palabra;
+    }
+  });
+
+  var resultado = 'Palabras ingresadas: ' + palabras.join(', ');
+
+  if (palabraMasLarga !== '') {
+    resultado += '\nPalabra con más caracteres únicos: ' + palabraMasLarga;
+    resultado += ' (' + maxCaracteresUnicos + ' caracteres únicos)';
+  }
+
+  document.getElementById('p3-output').textContent = resultado;
+}
