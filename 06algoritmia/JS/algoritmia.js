@@ -59,3 +59,30 @@ function problema2(){
     document.querySelector('#p2-output').textContent
      = 'Producto Escalar Minimo. ' + p2_prodcuto;
 }
+
+function problema1(){
+    var pa = document.getElementById('p1-input').value;
+
+    var parray = pa.split('');
+
+    var painvertido = parray.reverse().join(' ');
+    document.getElementById('p1-output').textContent = painvertido;
+}
+
+function problema3() {
+    var palabras = document.getElementById('p3-input').value;
+    var palabrasArray = palabras.split(',');
+  
+    var palabraMasLarga = '';
+    var maxCaracteresUnicos = 0;
+  
+    palabrasArray.forEach(function(palabra) {
+      var caracteresUnicos = new Set(palabra).size;
+      if (caracteresUnicos > maxCaracteresUnicos) {
+        maxCaracteresUnicos = caracteresUnicos;
+        palabraMasLarga = palabra;
+      }
+    });
+  
+    document.getElementById('p3-output').textContent = palabraMasLarga;
+  }
