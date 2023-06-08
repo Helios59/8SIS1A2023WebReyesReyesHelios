@@ -71,30 +71,35 @@ function problema1() {
 
 //PROBLEMA 3
 function problema3() {
-  var palabras = document.getElementById('p3-input').value.toUpperCase().split(',');
+  var inputPalabras = document.getElementById('p3-input').value;
+  var palabras = inputPalabras.split(',');
 
-  if (palabras.includes(' ') || /[a-z]/.test(palabras.join(''))) {
-    alert("Por favor, ingrese palabras en mayúsculas sin espacios.");
+  // Verificar si hay palabras en minúscula o con espacios
+  var hayMinusculas = palabras.some(function(palabra) {
+    return /[a-z]/.test(palabra);
+  });
+
+  if (hayMinusculas || inputPalabras !== inputPalabras.toUpperCase()) {
+    alert("Por favor, ingrese todas las palabras en mayúsculas y sin espacios.");
     return;
   }
 
+  var resultado = 'Palabras ingresadas: ' + palabras.join(', ');
+
   var palabraMasLarga = '';
-  var maxCaracteresUnicos = 0;
+  var longitudMaxima = 0;
 
   palabras.forEach(function(palabra) {
-    var caracteresUnicos = new Set(palabra).size;
-    if (caracteresUnicos > maxCaracteresUnicos) {
-      maxCaracteresUnicos = caracteresUnicos;
+    var longitud = palabra.length;
+    resultado += '\nLongitud de ' + palabra + ': ' + longitud;
+
+    if (longitud > longitudMaxima) {
+      longitudMaxima = longitud;
       palabraMasLarga = palabra;
     }
   });
 
-  var resultado = 'Palabras ingresadas: ' + palabras.join(', ');
-
-  if (palabraMasLarga !== '') {
-    resultado += '\nPalabra con más caracteres únicos: ' + palabraMasLarga;
-    resultado += ' (' + maxCaracteresUnicos + ' caracteres únicos)';
-  }
+  resultado += '\nPalabra con mayor longitud: ' + palabraMasLarga + ' (' + longitudMaxima + ' caracteres)';
 
   document.getElementById('p3-output').textContent = resultado;
 }
