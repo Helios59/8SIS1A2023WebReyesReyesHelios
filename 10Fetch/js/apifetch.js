@@ -167,4 +167,49 @@ const pokedex = () => {
     buttons.all.forEach(button => checkDisabled(button));
   };
 
+   /*
+   API REST: api que solicita y devuelve respuestas.
+   API: puede consumir recursos.
+   FETCH es una funcion de tipo promesa. sirve para consumir las APIS.
+   async: Define una función asíncrona, la cual devuelve un objeto.
+   await: comprueba todo el estado de la promesa.
+
+    Vamos a crea una funcion para consultar los datos de la pokeapi,
+    mediante el cual tenemos que obtener la informacion por medio del fetch,
+    fetch recibe la url para hacer la solicitud del sitio, pero tambien puede cargar
+    archivos de forma local (storage).
+    La peticion de fetch devuelve una promesa, por eso se debe de atender mediante
+    un try catch (then catch) y por otro lado nos devuleve un objeto JSON con la
+    informacion solicitada en caso de error debemos atender la peticion fallida.
+   */
+
+    const getPokemonData = async (pokemonName) => fetch(`${pokeApiUrl} pokemon/${pokemonName}`, {
+        /*Exisen varios metodos de peticion HTTP que sirven, entre otras cosas para poder
+        especificar el tipo de peticion, como son:
+        GET, POST, PUT, DELETE, PACH, etc.
+         */
+        method:'GET',
+        /*
+        En las cabeceras de la peticion, se puede especificar el tipo de informacion
+        que queremos utilizar, tambien aqui se suele colocar la identidad del usuario
+        (sesiones).
+        */
+       headers : {
+        'Content-Type' : 'application/json'
+       },
+       //body : JSON.stringify(MiObjetoJson se usa cuando es una peticion
+       //que debe de devolver un registro post, put)
+    })
+    .then((res) => res.json())
+
+    .catch((error) => ({requestFailed:true}));
+
+    //validar si debe estar deshabilitado o no los botones.
+    const checkDisabled = (button) => {
+        button.disable = button.id === "btnDown" &&
+        containers.pokemonIdElement.value <= 1;
+    };
+
+    
+
 }
