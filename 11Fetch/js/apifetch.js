@@ -39,7 +39,7 @@ const pokedex = () => {
 
     //Necesitamos un objeto que se contenga las referencias de todos los botones
     const buttons = {
-        all : Array.from(document.getElementById("btn")),
+        all : Array.from(document.getElementsByClassName("btn")),
         search : document.getElementById("btnSearch"),
         next : document.getElementById("btnUp"),
         previous : document.getElementById("btnDown")
