@@ -210,6 +210,37 @@ const pokedex = () => {
         containers.pokemonIdElement.value <= 1;
     };
 
-    
+    /**
+     Vamos a dar la respuesta para colocar en sus respectivos
+     contenedores la info de la consulta del pokemon.
+     */
+    const setPokemonData = async (pokemonName) => {
+        /*Hay que poner la imagen de busqueda del pokemon y
+        deshabilitar los botones */
+        setLoading();
+        //tenemos que hacer la consulta de los datos, con el uso del  await
+        //para tener la respuesta.
+        const pokemonData = await getPokemonData(typeof
+        pokemonName === typeof ""?pokemonName.toLowerCase() : 
+        pokemonName);
+        //si lo encontro.
+        if(pokemonData.requestFailed){
+            containers.imageContainer.innerHTML = imageTemple.replace("{imgSrc}", images.imgPokemonNotFound);
+        } else {
+            containers.imageContainer.innerHTML = `${imageTemple.replace(
+                "{imgSrc}", pokemonData.sprites.front_default)}`
+                //las comillas invertidas (``) sirven para cuando estoy modificando
+                `${imageTemple.replace(
+                    "{imgSrc}", pokemonData.sprites.front_shiny)}`
+            containers.pokemonNameElement.innerHTML = pokemonData.name;
+            contaniners.pokemonIdElement.value = pokemonData.id;
+            //repartir los datos de las estadisticas, habilidades, movimientos, etc del pokemon.
+            processPokemonTypes(pokemonData);
+            processPokemonStats(pokemonData);
+            processPokemonAbilities(pokemonData);
+            processPokemonMoves(pokemonData);
+        }
+        setLoadingComplete();
+    }
 
 }
