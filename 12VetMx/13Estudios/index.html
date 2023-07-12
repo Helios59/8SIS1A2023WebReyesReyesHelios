@@ -60,23 +60,23 @@
             alt="download12942"
             class="estudios-download1"
           />
-          <span class="estudios-text"><span>Inicio</span></span>
-          <span class="estudios-text02"><span>Servicios</span></span>
-          <span class="estudios-text04"><span>Productos</span></span>
-          <span class="estudios-text06"><span>contacto</span></span>
+          <span class="estudios-text"><a href="../01PaginaPrincipal/index.html"><span>Inicio</a></span></span>
+          <span class="estudios-text02"><a href="../01PaginaPrincipal/index.html"><span>Servicios</a></span></span>
+          <span class="estudios-text04"><a href="../01PaginaPrincipal/index.html"><span>Productos</a></span></span>
+          <span class="estudios-text06"><a href="../01PaginaPrincipal/index.html"><span>contacto</a></span></span>
           <span class="estudios-text08">
-            <span>
+            <span><a href="../10AgendarCitas/index.html">
               <span>Agendar</span>
               <br />
               <span>cita</span>
-            </span>
+            </a></span>
           </span>
           <span class="estudios-text13">
-            <span>
+            <span><a href="../01PaginaPrincipal/index.html">
               <span>Sobre</span>
               <br />
               <span>nosotros</span>
-            </span>
+            </a></span>
           </span>
           <img
             src="public/external/rectangle72942-q4h-200h.png"
@@ -116,22 +116,14 @@
             alt="Rectangle582942"
             class="estudios-rectangle58"
           />
-          <span class="estudios-text24"><span>nombre del estudio</span></span>
+          <input type="text" class="estudios-text24" placeholder="Nombre del usuario*" name="nombre">
+
           <img
             src="public/external/rectangle593012-e6dk-200h.png"
             alt="Rectangle593012"
             class="estudios-rectangle59"
           />
-          <img
-            src="public/external/rectangle613012-4y6.svg"
-            alt="Rectangle613012"
-            class="estudios-rectangle61"
-          />
-          <img
-            src="public/external/rectangle623012-3lt.svg"
-            alt="Rectangle623012"
-            class="estudios-rectangle62"
-          />
+         
           <img
             src="public/external/rectangle603012-4d4t-200h.png"
             alt="Rectangle603012"
@@ -142,20 +134,23 @@
             alt="Polygon23012"
             class="estudios-polygon2"
           />
-          <span class="estudios-text26"><span>Fecha solicitada</span></span>
-          <span class="estudios-text28"><span>notas adiccionales</span></span>
-          <span class="estudios-text30"><span>Tipo de estudio</span></span>
-          <span class="estudios-text32"><span>seleccionar estudio</span></span>
-          <img
-            src="public/external/line53012-znx.svg"
-            alt="Line53012"
-            class="estudios-line5"
-          />
-          <img
-            src="public/external/line63012-cw9i.svg"
-            alt="Line63012"
-            class="estudios-line6"
-          />
+          <span>Fecha solicitada
+          <input type="date" class="estudios-text26" name="fecha">
+        </span>
+        <input type="text" class="estudios-text28" placeholder="Notas Adicionales*" name="notas">
+
+          <span class="estudios-text30"><span>
+            <form action="#">
+              <label for="lang">Tipo de estudio</label>
+              <select name="lenguajes" id="lang">
+                <option value="javascript">tipo1</option>
+                <option value="php">tipo2</option>
+                <option value="java">tipo3</option>
+                <option value="golang">tipo4</option>
+                <option value="python">tipo5</option>
+              </select>
+        </form>
+         
         </div>
       </div>
     </div>

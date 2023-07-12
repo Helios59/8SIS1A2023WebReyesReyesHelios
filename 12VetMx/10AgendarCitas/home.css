@@ -1,4 +1,4 @@
-.cita-container {
+.home-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
 }
-.cita-cita {
+.home-cita {
   width: 1024px;
   height: 768px;
   display: flex;
@@ -14,28 +14,28 @@
   align-items: flex-start;
   flex-shrink: 1;
 }
-.cita-rectangle5 {
+.home-rectangle5 {
   top: 0px;
   left: 0px;
   width: 1024px;
   height: 102px;
   position: absolute;
 }
-.cita-rectangle6 {
+.home-rectangle6 {
   top: 120px;
   left: 0px;
   width: 1024px;
   height: 648px;
   position: absolute;
 }
-.cita-download1 {
+.home-download1 {
   top: 120px;
   left: 0px;
   width: 1024px;
   height: 648px;
   position: absolute;
 }
-.cita-text {
+.home-text {
   top: 41px;
   left: 174px;
   color: rgba(255, 255, 255, 1);
@@ -50,7 +50,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.cita-text02 {
+.home-text02 {
   top: 41px;
   left: 438px;
   color: rgba(255, 255, 255, 1);
@@ -65,7 +65,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.cita-text04 {
+.home-text04 {
   top: 41px;
   left: 586px;
   color: rgba(255, 255, 255, 1);
@@ -80,7 +80,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.cita-text06 {
+.home-text06 {
   top: 41px;
   left: 892px;
   color: rgba(255, 255, 255, 1);
@@ -95,7 +95,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.cita-text08 {
+.home-text08 {
   top: 31px;
   left: 749px;
   color: rgba(255, 255, 255, 1);
@@ -110,7 +110,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.cita-text13 {
+.home-text13 {
   top: 31px;
   left: 291px;
   color: rgba(255, 255, 255, 1);
@@ -125,14 +125,14 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.cita-rectangle7 {
+.home-rectangle7 {
   top: 102px;
   left: 0px;
   width: 1024px;
   height: 18px;
   position: absolute;
 }
-.cita-text18 {
+.home-text18 {
   top: 71px;
   left: 30px;
   color: rgba(255, 255, 255, 1);
@@ -148,14 +148,14 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.cita-pngtransparentgraphylogoveterinarianveterinarymedi {
+.home-pngtransparentgraphylogoveterinarianveterinarymedi {
   top: 6px;
   left: 32px;
   width: 62px;
   height: 58px;
   position: absolute;
 }
-.cita-rectangle12 {
+.home-rectangle12 {
   top: 162px;
   left: 137px;
   width: 750px;
@@ -163,7 +163,7 @@
   position: absolute;
   border-radius: 24px;
 }
-.cita-istockphoto868292512170667a1 {
+.home-istockphoto868292512170667a1 {
   top: 163px;
   left: 137px;
   width: 750px;
@@ -171,7 +171,7 @@
   position: absolute;
   border-radius: 16px;
 }
-.cita-rectangle21input {
+.home-rectangle21input {
   top: 606px;
   left: 169px;
   width: 312px;
@@ -182,7 +182,7 @@
   border-width: 1px;
   border-radius: 16px;
 }
-.cita-text20 {
+.home-text20 {
   top: 618px;
   left: 177px;
   color: rgba(0, 0, 0, 1);
@@ -196,8 +196,10 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+  background-color: #ECECEC;
+
 }
-.cita-rectangle13input {
+.home-rectangle13input {
   top: 420px;
   left: 169px;
   width: 312px;
@@ -208,7 +210,7 @@
   border-width: 1px;
   border-radius: 16px;
 }
-.cita-rectangle14input {
+.home-rectangle14input {
   top: 485px;
   left: 169px;
   width: 312px;
@@ -219,7 +221,7 @@
   border-width: 1px;
   border-radius: 16px;
 }
-.cita-text22 {
+.home-text22 {
   top: 185px;
   left: 379px;
   color: rgba(0, 0, 0, 1);
@@ -234,7 +236,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.cita-text24 {
+.home-text24 {
   top: 241px;
   left: 169px;
   color: rgba(0, 0, 0, 1);
@@ -249,7 +251,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.cita-text26 {
+.home-text26 {
   top: 373px;
   left: 169px;
   color: rgba(0, 0, 0, 1);
@@ -264,7 +266,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.cita-text28 {
+.home-text28 {
   top: 373px;
   left: 542px;
   color: rgba(0, 0, 0, 1);
@@ -279,7 +281,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.cita-text30 {
+.home-text30 {
   top: 433px;
   left: 185px;
   color: rgba(0, 0, 0, 1);
@@ -293,8 +295,9 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+  background-color: #ECECEC;
 }
-.cita-text32 {
+.home-text32 {
   top: 501px;
   left: 185px;
   color: rgba(0, 0, 0, 1);
@@ -308,8 +311,9 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+  background-color: #ECECEC;
 }
-.cita-rectangle18input {
+.home-rectangle18input {
   top: 547px;
   left: 169px;
   width: 312px;
@@ -320,7 +324,7 @@
   border-width: 1px;
   border-radius: 16px;
 }
-.cita-text34 {
+.home-text34 {
   top: 560px;
   left: 180px;
   color: rgba(0, 0, 0, 1);
@@ -334,8 +338,9 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+  background-color: #ECECEC;
 }
-.cita-rectangle15input {
+.home-rectangle15input {
   top: 284px;
   left: 169px;
   width: 312px;
@@ -346,7 +351,7 @@
   border-width: 1px;
   border-radius: 16px;
 }
-.cita-rectangle16input {
+.home-rectangle16input {
   top: 284px;
   left: 542px;
   width: 312px;
@@ -357,7 +362,7 @@
   border-width: 1px;
   border-radius: 16px;
 }
-.cita-rectangle19input {
+.home-rectangle19input {
   top: 420px;
   left: 542px;
   width: 312px;
@@ -368,7 +373,7 @@
   border-width: 1px;
   border-radius: 16px;
 }
-.cita-text36 {
+.home-text36 {
   top: 297px;
   left: 185px;
   color: rgba(0, 0, 0, 1);
@@ -382,8 +387,9 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+  background-color: #ECECEC;
 }
-.cita-text38 {
+.home-text38 {
   top: 433px;
   left: 552px;
   color: rgba(0, 0, 0, 1);
@@ -397,8 +403,9 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+  background-color: #ECECEC;
 }
-.cita-text40 {
+.home-text40 {
   top: 297px;
   left: 552px;
   color: rgba(0, 0, 0, 1);
@@ -413,7 +420,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.cita-rectangle17button {
+.home-rectangle17button {
   top: 665px;
   left: 532px;
   width: 123px;
@@ -421,7 +428,7 @@
   position: absolute;
   border-radius: 13px;
 }
-.cita-text42 {
+.home-text42 {
   top: 674px;
   left: 545px;
   color: rgba(255, 255, 255, 1);
@@ -436,7 +443,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.cita-rectangle20button {
+.home-rectangle20button {
   top: 665px;
   left: 369px;
   width: 123px;
@@ -444,7 +451,7 @@
   position: absolute;
   border-radius: 13px;
 }
-.cita-text44 {
+.home-text44 {
   top: 674px;
   left: 398px;
   color: rgba(255, 255, 255, 1);
@@ -459,14 +466,14 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.cita-polygon1 {
+.home-polygon1 {
   top: 310px;
   left: 838px;
   width: 11px;
   height: 11px;
   position: absolute;
 }
-.cita-downloadremovebgpreview1 {
+.home-downloadremovebgpreview1 {
   top: 294px;
   left: 445px;
   width: 19px;

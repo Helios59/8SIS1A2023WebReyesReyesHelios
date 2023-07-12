@@ -196,6 +196,7 @@
   border-style: solid;
   border-width: 1px;
   border-radius: 16px;
+  background-color: #ECECEC;
 }
 .expediente-rectangle-esterilizado {
   top: 215px;
@@ -207,6 +208,7 @@
   border-style: solid;
   border-width: 1px;
   border-radius: 16px;
+  background-color: #ECECEC;
 }
 .expediente-rectangle-especie {
   top: 215px;
@@ -218,6 +220,7 @@
   border-style: solid;
   border-width: 1px;
   border-radius: 16px;
+  background-color: #ECECEC;
 }
 .expediente-rectangle-raza {
   top: 276px;
@@ -229,6 +232,7 @@
   border-style: solid;
   border-width: 1px;
   border-radius: 16px;
+  background-color: #ECECEC;
 }
 .expediente-rectangle-sexo {
   top: 276px;
@@ -240,6 +244,7 @@
   border-style: solid;
   border-width: 1px;
   border-radius: 16px;
+  background-color: #ECECEC;
 }
 .expediente-rectangle-edad {
   top: 276px;
@@ -251,6 +256,7 @@
   border-style: solid;
   border-width: 1px;
   border-radius: 16px;
+  background-color: #ECECEC;
 }
 .expediente-rectangle-color {
   top: 276px;
@@ -262,6 +268,7 @@
   border-style: solid;
   border-width: 1px;
   border-radius: 16px;
+  background-color: #ECECEC;
 }
 .expediente-rectangle-nombre-paciente {
   top: 218px;
@@ -273,6 +280,7 @@
   border-style: solid;
   border-width: 1px;
   border-radius: 16px;
+  background-color: #ECECEC;
 }
 .expediente-rectangle16 {
   top: 445px;
@@ -295,6 +303,7 @@
   border-style: solid;
   border-width: 2px;
   border-radius: 24px;
+  background-color: #ECECEC;
 }
 .expediente-text22 {
   top: 218px;
@@ -526,4 +535,5 @@
   border-style: solid;
   border-width: 1px;
   border-radius: 16px;
+  background-color: #ECECEC;
 }

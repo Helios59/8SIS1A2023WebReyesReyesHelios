@@ -197,7 +197,7 @@
 }
 .menu-usuario-rectangle171 {
   top: 331px;
-  left: 755px;
+  left: 531px;
   width: 166px;
   height: 50px;
   position: absolute;
@@ -219,16 +219,16 @@
   text-decoration: none;
 }
 .menu-usuario-rectangle18 {
-  top: 466px;
-  left: 263px;
+  top: 331px;
+  left: 734px;
   width: 166px;
   height: 50px;
   position: absolute;
   border-radius: 13px;
 }
 .menu-usuario-text25 {
-  top: 470.859375px;
-  left: 283px;
+  top: 346px;
+  left: 755px;
   color: rgba(255, 255, 255, 1);
   width: 125px;
   height: auto;
@@ -244,14 +244,14 @@
 }
 .menu-usuario-rectangle172 {
   top: 331px;
-  left: 429px;
+  left: 317px;
   width: 166px;
   height: 50px;
   position: absolute;
 }
 .menu-usuario-text27 {
-  top: 346px;
-  left: 475px;
+  top: 339px;
+  left: 381px;
   color: rgba(255, 255, 255, 1);
   width: 79px;
   height: auto;
@@ -267,7 +267,7 @@
 }
 .menu-usuario-text29 {
   top: 346px;
-  left: 782px;
+  left: 558px;
   color: rgba(255, 255, 255, 1);
   width: 112px;
   height: auto;
@@ -287,28 +287,4 @@
   width: 41px;
   height: 41px;
   position: absolute;
-}
-.menu-usuario-rectangle173 {
-  top: 466px;
-  left: 599px;
-  width: 166px;
-  height: 50px;
-  position: absolute;
-  border-radius: 13px;
-}
-.menu-usuario-text31 {
-  top: 470.859375px;
-  left: 619px;
-  color: rgba(255, 255, 255, 1);
-  width: 125px;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: ExtraBold;
-  text-align: center;
-  font-family: Montserrat Alternates;
-  font-weight: 800;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
 }
