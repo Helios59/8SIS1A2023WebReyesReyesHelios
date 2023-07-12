@@ -1,0 +1,289 @@
+.inicioadminnistrador-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.inicioadminnistrador-inicioadminnistrador {
+  width: 1024px;
+  height: 768px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.inicioadminnistrador-rectangle5 {
+  top: 0px;
+  left: 0px;
+  width: 1024px;
+  height: 102px;
+  position: absolute;
+}
+.inicioadminnistrador-rectangle6 {
+  top: 120px;
+  left: 0px;
+  width: 1024px;
+  height: 648px;
+  position: absolute;
+}
+.inicioadminnistrador-download1 {
+  top: 120px;
+  left: 0px;
+  width: 1024px;
+  height: 648px;
+  position: absolute;
+}
+.inicioadminnistrador-text {
+  top: 41px;
+  left: 174px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.inicioadminnistrador-text02 {
+  top: 41px;
+  left: 438px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.inicioadminnistrador-text04 {
+  top: 41px;
+  left: 586px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.inicioadminnistrador-text06 {
+  top: 41px;
+  left: 892px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.inicioadminnistrador-text08 {
+  top: 31px;
+  left: 749px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.inicioadminnistrador-text13 {
+  top: 31px;
+  left: 291px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.inicioadminnistrador-rectangle7 {
+  top: 102px;
+  left: 0px;
+  width: 1024px;
+  height: 18px;
+  position: absolute;
+}
+.inicioadminnistrador-text18 {
+  top: 71px;
+  left: 34px;
+  color: rgba(255, 255, 255, 1);
+  width: 66px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.inicioadminnistrador-pngtransparentgraphylogoveterinarianveterinarymedi {
+  top: 6px;
+  left: 36px;
+  width: 62px;
+  height: 58px;
+  position: absolute;
+}
+.inicioadminnistrador-rectangle12 {
+  top: 162px;
+  left: 275px;
+  width: 474px;
+  height: 563px;
+  position: absolute;
+  border-radius: 24px;
+}
+.inicioadminnistrador-text20 {
+  top: 215px;
+  left: 365px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.inicioadminnistrador-rectangle15input {
+  top: 342px;
+  left: 312px;
+  width: 400px;
+  height: 37px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 16px;
+}
+.inicioadminnistrador-rectangle16input {
+  top: 407px;
+  left: 312px;
+  width: 400px;
+  height: 37px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 16px;
+}
+.inicioadminnistrador-rectangle16input1 {
+  top: 473px;
+  left: 312px;
+  width: 400px;
+  height: 37px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 16px;
+}
+.inicioadminnistrador-text25 {
+  top: 354px;
+  left: 333px;
+  color: rgba(0, 0, 0, 1);
+  width: 170px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: ExtraLight;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 200;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.inicioadminnistrador-text27 {
+  top: 418px;
+  left: 333px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: ExtraLight;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 200;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.inicioadminnistrador-text29 {
+  top: 483px;
+  left: 333px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: ExtraLight;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 200;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.inicioadminnistrador-rectangle17button {
+  top: 663px;
+  left: 446px;
+  width: 123px;
+  height: 35px;
+  position: absolute;
+  border-radius: 13px;
+}
+.inicioadminnistrador-text31 {
+  top: 672px;
+  left: 459px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.inicioadminnistrador-images1 {
+  top: 539px;
+  left: 456px;
+  width: 114px;
+  height: 96px;
+  position: absolute;
+}

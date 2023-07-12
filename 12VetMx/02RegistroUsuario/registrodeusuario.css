@@ -1,0 +1,412 @@
+.registrodeusuario-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.registrodeusuario-registrodeusuario {
+  width: 1024px;
+  height: 768px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.registrodeusuario-rectangle5 {
+  top: 0px;
+  left: 0px;
+  width: 1024px;
+  height: 102px;
+  position: absolute;
+}
+.registrodeusuario-rectangle6 {
+  top: 120px;
+  left: 0px;
+  width: 1024px;
+  height: 648px;
+  position: absolute;
+}
+.registrodeusuario-text {
+  top: 41px;
+  left: 174px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.registrodeusuario-text02 {
+  top: 41px;
+  left: 438px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.registrodeusuario-text04 {
+  top: 41px;
+  left: 586px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.registrodeusuario-text06 {
+  top: 41px;
+  left: 892px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.registrodeusuario-text08 {
+  top: 31px;
+  left: 749px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.registrodeusuario-text13 {
+  top: 31px;
+  left: 291px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.registrodeusuario-rectangle7 {
+  top: 102px;
+  left: 0px;
+  width: 1024px;
+  height: 18px;
+  position: absolute;
+}
+.registrodeusuario-text18 {
+  top: 71px;
+  left: 39px;
+  color: rgba(255, 255, 255, 1);
+  width: 66px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.registrodeusuario-pngtransparentgraphylogoveterinarianveterinarymedi {
+  top: 6px;
+  left: 41px;
+  width: 62px;
+  height: 58px;
+  position: absolute;
+}
+.registrodeusuario-rectangle12 {
+  top: 162px;
+  left: 137px;
+  width: 750px;
+  height: 563px;
+  position: absolute;
+  border-radius: 24px;
+}
+.registrodeusuario-fondo {
+  top: 163px;
+  left: 137px;
+  width: 750px;
+  height: 562px;
+  position: absolute;
+  border-radius: 16px;
+}
+.registrodeusuario-rectangle13 {
+  top: 571px;
+  left: 169px;
+  width: 312px;
+  height: 42px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 16px;
+}
+.registrodeusuario-rectangle14 {
+  top: 571px;
+  left: 542px;
+  width: 312px;
+  height: 42px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 16px;
+}
+.registrodeusuario-text20 {
+  top: 181px;
+  left: 423px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.registrodeusuario-text22 {
+  top: 313px;
+  left: 169px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.registrodeusuario-text24 {
+  top: 516px;
+  left: 169px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.registrodeusuario-text26 {
+  top: 584px;
+  left: 185px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: ExtraLight;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 200;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.registrodeusuario-text28 {
+  top: 584px;
+  left: 552px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: ExtraLight;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 200;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.registrodeusuario-rectangle15 {
+  top: 356px;
+  left: 169px;
+  width: 312px;
+  height: 42px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 16px;
+}
+.registrodeusuario-rectangle16 {
+  top: 356px;
+  left: 542px;
+  width: 312px;
+  height: 42px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 16px;
+}
+.registrodeusuario-rectangle18 {
+  top: 224px;
+  left: 356px;
+  width: 315px;
+  height: 56px;
+  position: absolute;
+}
+.registrodeusuario-text30 {
+  top: 369px;
+  left: 185px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: ExtraLight;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 200;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.registrodeusuario-text32 {
+  top: 232px;
+  left: 359px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.registrodeusuario-text37 {
+  top: 369px;
+  left: 552px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: ExtraLight;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 200;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.registrodeusuario-rectangle131 {
+  top: 437px;
+  left: 169px;
+  width: 312px;
+  height: 42px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 16px;
+}
+.registrodeusuario-text39 {
+  top: 450px;
+  left: 174px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: ExtraLight;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 200;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.registrodeusuario-rectangle141 {
+  top: 437px;
+  left: 542px;
+  width: 312px;
+  height: 42px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 16px;
+}
+.registrodeusuario-text41 {
+  top: 450px;
+  left: 552px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: ExtraLight;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 200;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.registrodeusuario-rectangle17 {
+  top: 666px;
+  left: 450px;
+  width: 123px;
+  height: 35px;
+  position: absolute;
+  border-radius: 13px;
+}
+.registrodeusuario-text43 {
+  top: 675px;
+  left: 464px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}

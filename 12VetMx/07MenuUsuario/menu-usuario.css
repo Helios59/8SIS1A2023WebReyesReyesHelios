@@ -1,0 +1,314 @@
+.menu-usuario-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.menu-usuario-menu-usuario {
+  width: 1024px;
+  height: 768px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.menu-usuario-rectangle5 {
+  top: 0px;
+  left: 0px;
+  width: 1024px;
+  height: 102px;
+  position: absolute;
+}
+.menu-usuario-rectangle6 {
+  top: 120px;
+  left: 0px;
+  width: 1024px;
+  height: 648px;
+  position: absolute;
+}
+.menu-usuario-rectangle15 {
+  top: 265px;
+  left: 58px;
+  width: 907px;
+  height: 464px;
+  position: absolute;
+  border-radius: 16px;
+}
+.menu-usuario-text {
+  top: 41px;
+  left: 178px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.menu-usuario-text02 {
+  top: 41px;
+  left: 500px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.menu-usuario-text04 {
+  top: 41px;
+  left: 673px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.menu-usuario-istockphoto868292512170667a1 {
+  top: 265px;
+  left: 58px;
+  width: 907px;
+  height: 464px;
+  position: absolute;
+  border-radius: 16px;
+}
+.menu-usuario-text06 {
+  top: 31px;
+  left: 327px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.menu-usuario-rectangle7 {
+  top: 102px;
+  left: 0px;
+  width: 1024px;
+  height: 18px;
+  position: absolute;
+}
+.menu-usuario-text11 {
+  top: 71px;
+  left: 57px;
+  color: rgba(255, 255, 255, 1);
+  width: 66px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.menu-usuario-pngtransparentgraphylogoveterinarianveterinarymedi {
+  top: 6px;
+  left: 59px;
+  width: 62px;
+  height: 58px;
+  position: absolute;
+}
+.menu-usuario-rectangle12 {
+  top: 142.627685546875px;
+  left: 27.0263671875px;
+  width: 971px;
+  height: 104px;
+  position: absolute;
+  border-radius: 24px;
+}
+.menu-usuario-text13 {
+  top: 155.59375px;
+  left: 356.34765625px;
+  color: rgba(0, 0, 0, 1);
+  width: 312px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.menu-usuario-rectangle17 {
+  top: 331px;
+  left: 103px;
+  width: 166px;
+  height: 50px;
+  position: absolute;
+  border-radius: 13px;
+}
+.menu-usuario-download2 {
+  top: 578px;
+  left: 431px;
+  width: 168px;
+  height: 151px;
+  position: absolute;
+}
+.menu-usuario-text18 {
+  top: 41px;
+  left: 848px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.menu-usuario-lentes1 {
+  top: 614.4052734375px;
+  left: 515.08203125px;
+  width: 51px;
+  height: 32px;
+  position: absolute;
+}
+.menu-usuario-rectangle171 {
+  top: 331px;
+  left: 755px;
+  width: 166px;
+  height: 50px;
+  position: absolute;
+}
+.menu-usuario-text20 {
+  top: 335.859375px;
+  left: 123px;
+  color: rgba(255, 255, 255, 1);
+  width: 125px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.menu-usuario-rectangle18 {
+  top: 466px;
+  left: 263px;
+  width: 166px;
+  height: 50px;
+  position: absolute;
+  border-radius: 13px;
+}
+.menu-usuario-text25 {
+  top: 470.859375px;
+  left: 283px;
+  color: rgba(255, 255, 255, 1);
+  width: 125px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.menu-usuario-rectangle172 {
+  top: 331px;
+  left: 429px;
+  width: 166px;
+  height: 50px;
+  position: absolute;
+}
+.menu-usuario-text27 {
+  top: 346px;
+  left: 475px;
+  color: rgba(255, 255, 255, 1);
+  width: 79px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.menu-usuario-text29 {
+  top: 346px;
+  left: 782px;
+  color: rgba(255, 255, 255, 1);
+  width: 112px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.menu-usuario-downloadremovebgpreview42 {
+  top: 31px;
+  left: 924px;
+  width: 41px;
+  height: 41px;
+  position: absolute;
+}
+.menu-usuario-rectangle173 {
+  top: 466px;
+  left: 599px;
+  width: 166px;
+  height: 50px;
+  position: absolute;
+  border-radius: 13px;
+}
+.menu-usuario-text31 {
+  top: 470.859375px;
+  left: 619px;
+  color: rgba(255, 255, 255, 1);
+  width: 125px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}

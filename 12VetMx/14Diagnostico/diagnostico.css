@@ -1,0 +1,361 @@
+.diagnostico-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.diagnostico-diagnostico {
+  width: 1024px;
+  height: 768px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.diagnostico-rectangle5 {
+  top: 0px;
+  left: 0px;
+  width: 1024px;
+  height: 102px;
+  position: absolute;
+}
+.diagnostico-rectangle6 {
+  top: 120px;
+  left: 0px;
+  width: 1024px;
+  height: 648px;
+  position: absolute;
+}
+.diagnostico-download1 {
+  top: 120px;
+  left: 0px;
+  width: 1024px;
+  height: 648px;
+  position: absolute;
+}
+.diagnostico-text {
+  top: 41px;
+  left: 174px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.diagnostico-text02 {
+  top: 41px;
+  left: 438px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.diagnostico-text04 {
+  top: 41px;
+  left: 586px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.diagnostico-text06 {
+  top: 41px;
+  left: 892px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.diagnostico-text08 {
+  top: 31px;
+  left: 749px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.diagnostico-text13 {
+  top: 31px;
+  left: 291px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.diagnostico-rectangle7 {
+  top: 102px;
+  left: 0px;
+  width: 1024px;
+  height: 18px;
+  position: absolute;
+}
+.diagnostico-text18 {
+  top: 71px;
+  left: 34px;
+  color: rgba(255, 255, 255, 1);
+  width: 66px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.diagnostico-pngtransparentgraphylogoveterinarianveterinarymedi {
+  top: 6px;
+  left: 36px;
+  width: 62px;
+  height: 58px;
+  position: absolute;
+}
+.diagnostico-rectangle12 {
+  top: 130px;
+  left: 26px;
+  width: 970px;
+  height: 60px;
+  position: absolute;
+  border-radius: 24px;
+}
+.diagnostico-text20 {
+  top: 141px;
+  left: 426px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.diagnostico-rectangle15 {
+  top: 200px;
+  left: 34px;
+  width: 970px;
+  height: 554px;
+  position: absolute;
+  border-radius: 16px;
+}
+.diagnostico-rectangle16 {
+  top: 218px;
+  left: 56px;
+  width: 925px;
+  height: 523px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 24px;
+}
+.diagnostico-text22 {
+  top: 150px;
+  left: 98px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.diagnostico-downloadremovebgpreview41 {
+  top: 140px;
+  left: 45px;
+  width: 41px;
+  height: 41px;
+  position: absolute;
+}
+.diagnostico-rectangle58 {
+  top: 238px;
+  left: 81px;
+  width: 876px;
+  height: 477px;
+  position: absolute;
+  border-radius: 24px;
+}
+.diagnostico-text24 {
+  top: 563px;
+  left: 138px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.diagnostico-text26 {
+  top: 493px;
+  left: 138px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.diagnostico-rectangle62 {
+  top: 593px;
+  left: 133px;
+  width: 791px;
+  height: 98px;
+  position: absolute;
+}
+.diagnostico-rectangle67 {
+  top: 466px;
+  left: 277px;
+  width: 647px;
+  height: 73px;
+  position: absolute;
+}
+.diagnostico-rectangle63 {
+  top: 286px;
+  left: 430px;
+  width: 143px;
+  height: 35px;
+  position: absolute;
+}
+.diagnostico-rectangle65 {
+  top: 378px;
+  left: 430px;
+  width: 143px;
+  height: 35px;
+  position: absolute;
+}
+.diagnostico-rectangle64 {
+  top: 286px;
+  left: 133px;
+  width: 232px;
+  height: 142px;
+  position: absolute;
+}
+.diagnostico-rectangle66 {
+  top: 286px;
+  left: 651px;
+  width: 273px;
+  height: 142px;
+  position: absolute;
+}
+.diagnostico-text28 {
+  top: 256px;
+  left: 133px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.diagnostico-text30 {
+  top: 256px;
+  left: 660px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.diagnostico-text32 {
+  top: 256px;
+  left: 463px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.diagnostico-text34 {
+  top: 337px;
+  left: 422px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
