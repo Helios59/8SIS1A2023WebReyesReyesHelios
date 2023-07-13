@@ -121,8 +121,8 @@
             alt="Rectangle583013"
             class="diagnostico-rectangle58"
           />
-          <span class="diagnostico-text24"><span>notas adicionales</span></span>
-          <span class="diagnostico-text26"><span>observaciones</span></span>
+          <input type="text" class="diagnostico-text24" placeholder="Notas adicionales" name="notas">
+          <input type="text" class="diagnostico-text26" placeholder="Observaciones" name="observaciones">
           <img
             src="public/external/rectangle623013-iquj.svg"
             alt="Rectangle623013"
@@ -153,14 +153,23 @@
             alt="Rectangle663013"
             class="diagnostico-rectangle66"
           />
-          <span class="diagnostico-text28">
-            <span>medicamentos recetados</span>
-          </span>
+          <input type="text" class="diagnostico-text28" placeholder="Medicamentos recetados" name="medicamentos">
           <span class="diagnostico-text30">
-            <span>tipo de procedimiento</span>
+            <span></span>
+            <form action="#">
+              <label for="lang">Tipo de procedimiento</label>
+              <select name="lenguajes" id="lang">
+                <option value="javascript">tipo1</option>
+                <option value="php">tipo2</option>
+                <option value="java">tipo3</option>
+                <option value="golang">tipo4</option>
+                <option value="python">tipo5</option>
+              </select>
+        </form>
           </span>
-          <span class="diagnostico-text32"><span>Cantidad</span></span>
-          <span class="diagnostico-text34"><span>periodo de tiempo</span></span>
+          <input type="text" class="diagnostico-text32" placeholder="Cantidad" name="cantidad">
+          <input type="text" class="diagnostico-text34" placeholder="Periodo de tiempo" name="periodoTiempo">
+
         </div>
       </div>
     </div>
