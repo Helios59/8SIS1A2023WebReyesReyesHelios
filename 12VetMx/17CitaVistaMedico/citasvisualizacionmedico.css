@@ -1,4 +1,4 @@
-.menu-medico-container {
+.citasvisualizacionmedico-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
 }
-.menu-medico-menu-medico {
+.citasvisualizacionmedico-citasvisualizacionmedico {
   width: 1024px;
   height: 768px;
   display: flex;
@@ -14,31 +14,30 @@
   align-items: flex-start;
   flex-shrink: 1;
 }
-.menu-medico-rectangle5 {
+.citasvisualizacionmedico-rectangle5 {
   top: 0px;
   left: 0px;
   width: 1024px;
   height: 102px;
   position: absolute;
 }
-.menu-medico-rectangle6 {
+.citasvisualizacionmedico-rectangle6 {
   top: 120px;
   left: 0px;
   width: 1024px;
   height: 648px;
   position: absolute;
 }
-.menu-medico-rectangle15 {
-  top: 265px;
-  left: 198px;
-  width: 627px;
-  height: 464px;
+.citasvisualizacionmedico-download1 {
+  top: 120px;
+  left: 0px;
+  width: 1024px;
+  height: 648px;
   position: absolute;
-  border-radius: 16px;
 }
-.menu-medico-text {
+.citasvisualizacionmedico-text {
   top: 41px;
-  left: 178px;
+  left: 174px;
   color: rgba(255, 255, 255, 1);
   height: auto;
   position: absolute;
@@ -51,9 +50,9 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.menu-medico-text02 {
+.citasvisualizacionmedico-text02 {
   top: 41px;
-  left: 500px;
+  left: 438px;
   color: rgba(255, 255, 255, 1);
   height: auto;
   position: absolute;
@@ -66,9 +65,9 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.menu-medico-text04 {
+.citasvisualizacionmedico-text04 {
   top: 41px;
-  left: 673px;
+  left: 586px;
   color: rgba(255, 255, 255, 1);
   height: auto;
   position: absolute;
@@ -81,17 +80,24 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.menu-medico-istockphoto868292512170667a1 {
-  top: 265px;
-  left: 198px;
-  width: 627px;
-  height: 464px;
+.citasvisualizacionmedico-text06 {
+  top: 41px;
+  left: 892px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
   position: absolute;
-  border-radius: 16px;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
 }
-.menu-medico-text06 {
+.citasvisualizacionmedico-text08 {
   top: 31px;
-  left: 327px;
+  left: 749px;
   color: rgba(255, 255, 255, 1);
   height: auto;
   position: absolute;
@@ -104,16 +110,31 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.menu-medico-rectangle7 {
+.citasvisualizacionmedico-text13 {
+  top: 31px;
+  left: 291px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.citasvisualizacionmedico-rectangle7 {
   top: 102px;
   left: 0px;
   width: 1024px;
   height: 18px;
   position: absolute;
 }
-.menu-medico-text11 {
+.citasvisualizacionmedico-text18 {
   top: 71px;
-  left: 57px;
+  left: 34px;
   color: rgba(255, 255, 255, 1);
   width: 66px;
   height: auto;
@@ -127,56 +148,59 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.menu-medico-pngtransparentgraphylogoveterinarianveterinarymedi {
+.citasvisualizacionmedico-pngtransparentgraphylogoveterinarianveterinarymedi {
   top: 6px;
-  left: 59px;
+  left: 36px;
   width: 62px;
   height: 58px;
   position: absolute;
 }
-.menu-medico-rectangle12 {
-  top: 142.62744140625px;
-  left: 27.0263671875px;
-  width: 971px;
-  height: 104px;
+.citasvisualizacionmedico-rectangle12 {
+  top: 130px;
+  left: 26px;
+  width: 970px;
+  height: 60px;
   position: absolute;
   border-radius: 24px;
 }
-.menu-medico-text13 {
-  top: 155.59375px;
-  left: 356.34765625px;
+.citasvisualizacionmedico-text20 {
+  top: 141px;
+  left: 374px;
   color: rgba(0, 0, 0, 1);
-  width: 312px;
   height: auto;
   position: absolute;
   font-size: 32px;
   font-style: ExtraBold;
-  text-align: center;
+  text-align: left;
   font-family: Montserrat Alternates;
   font-weight: 800;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
 }
-.menu-medico-rectangle17 {
-  top: 328px;
-  left: 281px;
-  width: 166px;
-  height: 50px;
+.citasvisualizacionmedico-rectangle15 {
+  top: 200px;
+  left: 34px;
+  width: 970px;
+  height: 554px;
   position: absolute;
-  border-radius: 13px;
+  border-radius: 16px;
 }
-.menu-medico-download2 {
-  top: 578px;
-  left: 431px;
-  width: 168px;
-  height: 151px;
+.citasvisualizacionmedico-rectangle16 {
+  top: 216px;
+  left: 66px;
+  width: 925px;
+  height: 523px;
   position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 24px;
 }
-.menu-medico-text18 {
-  top: 41px;
-  left: 848px;
-  color: rgba(255, 255, 255, 1);
+.citasvisualizacionmedico-text22 {
+  top: 150px;
+  left: 98px;
+  color: rgba(0, 0, 0, 1);
   height: auto;
   position: absolute;
   font-size: 16px;
@@ -188,103 +212,104 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.menu-medico-lentes1 {
-  top: 614.4052734375px;
-  left: 515.08203125px;
-  width: 51px;
-  height: 32px;
-  position: absolute;
-}
-.menu-medico-rectangle171 {
-  top: 328px;
-  left: 576px;
-  width: 166px;
-  height: 50px;
-  position: absolute;
-}
-.menu-medico-text20 {
-  top: 332.859375px;
-  left: 301px;
-  color: rgba(255, 255, 255, 1);
-  width: 125px;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: ExtraBold;
-  text-align: center;
-  font-family: Montserrat Alternates;
-  font-weight: 800;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.menu-medico-rectangle18 {
-  top: 509px;
-  left: 576px;
-  width: 166px;
-  height: 50px;
-  position: absolute;
-  border-radius: 13px;
-}
-.menu-medico-text25 {
-  top: 524px;
-  left: 576px;
-  color: rgba(255, 255, 255, 1);
-  width: 166px;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: ExtraBold;
-  text-align: center;
-  font-family: Montserrat Alternates;
-  font-weight: 800;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.menu-medico-rectangle172 {
-  top: 509px;
-  left: 281px;
-  width: 166px;
-  height: 50px;
-  position: absolute;
-}
-.menu-medico-text27 {
-  top: 524px;
-  left: 307px;
-  color: rgba(255, 255, 255, 1);
-  width: 113px;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: ExtraBold;
-  text-align: left;
-  font-family: Montserrat Alternates;
-  font-weight: 800;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.menu-medico-text29 {
-  top: 343px;
-  left: 619px;
-  color: rgba(255, 255, 255, 1);
-  width: 79px;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: ExtraBold;
-  text-align: left;
-  font-family: Montserrat Alternates;
-  font-weight: 800;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.menu-medico-downloadremovebgpreview42 {
-  top: 31px;
-  left: 924px;
+.citasvisualizacionmedico-downloadremovebgpreview41 {
+  top: 140px;
+  left: 45px;
   width: 41px;
   height: 41px;
   position: absolute;
+}
+.citasvisualizacionmedico-rectangle57 {
+  top: 231px;
+  left: 91px;
+  width: 876px;
+  height: 39px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 24px;
+}
+.citasvisualizacionmedico-rectangle58 {
+  top: 281px;
+  left: 91px;
+  width: 876px;
+  height: 441px;
+  position: absolute;
+  border-radius: 24px;
+}
+.citasvisualizacionmedico-text24 {
+  top: 241px;
+  left: 333px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.citasvisualizacionmedico-text26 {
+  top: 241px;
+  left: 505px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.citasvisualizacionmedico-text28 {
+  top: 241px;
+  left: 651px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.citasvisualizacionmedico-text30 {
+  top: 241px;
+  left: 112px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.citasvisualizacionmedico-text32 {
+  top: 241px;
+  left: 808px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
 }
